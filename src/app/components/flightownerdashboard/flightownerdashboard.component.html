@@ -1,0 +1,20 @@
+<div class="dashboard-container">
+  <div class="sidenav">
+    <div style="padding-top: 30px; padding-bottom: 20px;">
+      <h2>Welcome FlightOwner : {{flightOwnerDto.flightOwnerName}}</h2>
+    </div>
+  
+    <a routerLink="addflight">Add Flight</a>
+    <a routerLink="viewtickets"> View Tickets</a>
+    <a routerLink="viewflights"> View Flights</a>
+    <a routerLink="editflightowner"> Edit Profile</a>
+    <a routerLink="changeownerpassword"> Change Password</a>
+    
+
+  </div>
+
+  <!-- Page content -->
+  <div class="main">
+    <router-outlet></router-outlet>
+  </div>
+</div>
